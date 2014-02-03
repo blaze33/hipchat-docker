@@ -1,10 +1,13 @@
 Hipchat-Docker
 ==============
 
-Hipchat does not currently allow you to be logged in multiple accounts.
-You can [vote for this idea](http://help.hipchat.com/forums/138883-suggestions-issues/suggestions/2716912-let-me-be-a-member-of-and-sign-in-to-multiple-acco).
+~~Hipchat does not currently allow you to be logged in multiple accounts. You can [vote for this idea](http://help.hipchat.com/forums/138883-suggestions-issues/suggestions/2716912-let-me-be-a-member-of-and-sign-in-to-multiple-acco).~~
 
-In the meantime, here a dockerized hipchat, so you can have as many as you want :)
+Hipchat actually allows you to be logged in multiple accounts, just launch a detached instance:
+
+    hipchat --detach
+
+Now if you like complicated hacks or just want to learn docker, here's a dockerized hipchat !
 
 Usage
 -----
